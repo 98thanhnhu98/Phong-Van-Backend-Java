@@ -34,6 +34,9 @@ class Bike2 extends Vehicle{
   }  
 }  
  ```
+ Output : 
+ 
+         Bike is running safely
 
 #### 2 - Tính trừu tượng : Trừu tượng cho phép tập trung vào các thông tin cần thiết và che giấu chi tiết cài đặt. Trong Java, trừu tượng được thực hiện thông qua các lớp trừu tượng (Abstract Class) và các phương thức trừu tượng (Abstract Method).
 
