@@ -16,6 +16,8 @@ nó không thích hợp dùng trong môi trường đơn luồng. String Buffer 
 
 #### 1 - Tính đa hình : Đa hình cho phép một đối tượng có thể biểu diễn nhiều hình dạng khác nhau. Trong Java, đa hình được thực hiện thông qua hai cơ chế là kế thừa (Inheritance) và ghi đè phương thức (Method Overriding).
 
+VD : Overrding
+
  ```
  class Vehicle{  
   //defining a method  
