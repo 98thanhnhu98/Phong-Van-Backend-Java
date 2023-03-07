@@ -76,3 +76,28 @@ Output:
         Xem lại VD 1
 
 #### 4 - Tính đóng gói : Đóng gói cho phép che giấu thông tin và cài đặt của một đối tượng để không cho các đối tượng khác truy cập trực tiếp. Trong Java, đóng gói được thực hiện thông qua các phương thức Getter và Setter.
+File Student.java
+```
+public class Student {
+    private String name;
+ 
+    public String getName() {
+        return name;
+    }
+ 
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+```
+File Test.java
+```
+class Test {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.setName("Hai");
+        System.out.println(s.getName());
+    }
+}
+```
+       Hai
