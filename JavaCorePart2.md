@@ -5,3 +5,9 @@ là một cùng nhớ được sử dụng để lưu trữ các tham số và c
 
 ### Bộ nhớ Heap
 là một vùng nhớ trong bộ nhớ được sử dụng để lưu trữ các đối tượng khi từ khóa new được gọi ra , các biến static và các biến toàn cục ( biến instance ).
+
+### Kiểu Nguyên Thủy (Wrapper Class)
+Là một kiểu Object chứa các phương thức xử lý giá trị đó. Nó còn được sử dụng để truyền giá trị vào các phương thức yêu cầu đối tượng.
+
+### Kiểu Giá Trị (Primitive Data Type)
+là một kiểu dữ liệu cơ bản không có phương thứ xử lý giá trị , dùng để lưu dữ liệu và được lưu trực tiếp trong bộ nhớ.
