@@ -14,7 +14,12 @@ Phía User thì quản lí các sản phẩm mình có thể update lại thông
 
 ### 3 Trong dự án, có những cách nào để tối ưu hóa hiệu năng trong lập trình
 Có nhiều cách để tối ưu hóa hiệu năng như là tối ưu hóa ở code , tối ưu hóa ở database hoặc là nâng cấp con server :
-+ Tối ưu hóa ở code thường thì em sẽ tracing
-- 4 Em có câu hỏi gì cho anh không?
++ Tối ưu hóa ở code thường thì em sẽ tracing để xem nó đang bị lỗi gì và lỗi ở đâu
++ Tối ưu hóa ở server , thường thì ở phần này mình sẽ chia tải ra còn nếu không còn biện pháp gì nữa thì bắt buộc phải nâng cấp con Server .
 
-#### 1.1 
+### 3.1 khi mà có quá nhiều request thì em giải quyết như nào (hệ thống bị treo, quá tải request)
++ thường thì khi có quá nhiều request thì lúc đó thì bọn em sẽ dùng TPS COUNTER , tức là khi một cái transaction chạy thì nó sẽ check xem có vượt quá limit không, nếu không thì nó sẽ tăng lên một và khi thực hiện xong nó sẽ trừ đi một còn khi lớn hơn limit thì bọn em sẽ throw ra exception và trả lại message cho khách hàng là quá tải hệ thống.
+
+(nếu mà thấy thái độ của ông phỏng vấn tốt thì nên hỏi )
+### 4 Em có câu hỏi gì cho anh không?
++ Dự án dùng công nghệ gì ? -> em rất thích công nghệ này , em rất hứng thú về công nghệ này 
