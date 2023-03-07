@@ -140,3 +140,8 @@ Output :
     task one
     task two
 
+### Overload 
+là các phương thức mà các phương đó có tên phương thức trùng nhau nhưng tham số truyền vào là khác nhau
+
+### Override 
+là phương thức kế thừa và ghi đè lại thằng cha
