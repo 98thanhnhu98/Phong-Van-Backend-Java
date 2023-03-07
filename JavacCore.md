@@ -16,7 +16,7 @@ nó không thích hợp dùng trong môi trường đơn luồng. String Buffer 
 
 #### 1 - Tính đa hình : Đa hình cho phép một đối tượng có thể biểu diễn nhiều hình dạng khác nhau. Trong Java, đa hình được thực hiện thông qua hai cơ chế là kế thừa (Inheritance) và ghi đè phương thức (Method Overriding).
 
-VD : Overrding
+VD 1 : Overrding
 
  ```
  class Vehicle{  
@@ -40,6 +40,39 @@ class Bike2 extends Vehicle{
 
 #### 2 - Tính trừu tượng : Trừu tượng cho phép tập trung vào các thông tin cần thiết và che giấu chi tiết cài đặt. Trong Java, trừu tượng được thực hiện thông qua các lớp trừu tượng (Abstract Class) và các phương thức trừu tượng (Abstract Method).
 
+```
+// Abstract class
+abstract class Animal {
+  // Abstract method (does not have a body)
+  public abstract void animalSound();
+  // Regular method
+  public void sleep() {
+    System.out.println("Zzz");
+  }
+}
+// Subclass (inherit from Animal)
+class Pig extends Animal {
+  public void animalSound() {
+    // The body of animalSound() is provided here
+    System.out.println("The pig says: wee wee");
+  }
+}
+class Main {
+  public static void main(String[] args) {
+    Pig myPig = new Pig(); // Create a Pig object
+    myPig.animalSound();
+    myPig.sleep();
+  }
+}
+```
+
+Output: 
+
+    The pig says: wee wee
+    Zzz
+   
 #### 3- Tính kế thừa : Kế thừa cho phép lớp con (Subclass) được phép sử dụng lại các thuộc tính và phương thức của lớp cha (Superclass). Trong Java, kế thừa được thực hiện thông qua từ khóa "extends".
+
+        Xem lại VD 1
 
 #### 4 - Tính đóng gói : Đóng gói cho phép che giấu thông tin và cài đặt của một đối tượng để không cho các đối tượng khác truy cập trực tiếp. Trong Java, đóng gói được thực hiện thông qua các phương thức Getter và Setter.
