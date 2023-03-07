@@ -39,6 +39,7 @@ class Bike2 extends Vehicle{
          Bike is running safely
 
 #### 2 - Tính trừu tượng : Trừu tượng cho phép tập trung vào các thông tin cần thiết và che giấu chi tiết cài đặt. Trong Java, trừu tượng được thực hiện thông qua các lớp trừu tượng (Abstract Class) và các phương thức trừu tượng (Abstract Method).
+VD 2 : Abtract class
 
 ```
 // Abstract class
@@ -77,6 +78,7 @@ Output:
 
 #### 4 - Tính đóng gói : Đóng gói cho phép che giấu thông tin và cài đặt của một đối tượng để không cho các đối tượng khác truy cập trực tiếp. Trong Java, đóng gói được thực hiện thông qua các phương thức Getter và Setter.
 File Student.java
+VD 3 : Encapsulation
 ```
 public class Student {
     private String name;
@@ -101,3 +103,40 @@ class Test {
 }
 ```
        Hai
+       
+       
+### Thread and multithreading
+Thread được coi là đơn vị nhỏ nhất của một chương trình đang chạy vì nó là một tiểu trình độc lập, có khả năng chạy đồng thời với các thread khác trong chương trình. Mỗi thread có một luồng thực thi riêng, có thể chạy cùng lúc với các thread khác, thực hiện các tác vụ độc lập và có thể truy cập và thay đổi các biến và tài nguyên chung.
+
+Trong một chương trình đa luồng, các thread thực hiện các tác vụ đồng thời để tăng tốc độ xử lý và cải thiện hiệu suất của chương trình. Mỗi thread có thể thực hiện một tác vụ riêng biệt hoặc chia sẻ các tài nguyên chung với các thread khác.
+
+Do đó, thread được coi là đơn vị nhỏ nhất của một chương trình đang chạy vì nó là thành phần cơ bản của chương trình đa luồng và là đơn vị thực thi các tác vụ độc lập trong chương trình đó.
+VD 4 : Thread 
+```
+class Simple1 extends Thread {
+    public void run() {
+        System.out.println("task one");
+    }
+}
+ 
+class Simple2 extends Thread {
+    public void run() {
+        System.out.println("task two");
+    }
+}
+ 
+public class TestMultitasking3 {
+    public static void main(String args[]) {
+        Simple1 t1 = new Simple1();
+        Simple2 t2 = new Simple2();
+ 
+        t1.start();
+        t2.start();
+    }
+}
+```
+Output :
+
+    task one
+    task two
+
