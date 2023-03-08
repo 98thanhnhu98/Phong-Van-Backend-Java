@@ -9,7 +9,7 @@ Bằng cách sử dụng IOC container, các class được chia sẻ các inter
 Vậy nên nó sinh ra Ioc Container để sử dụng và quản lí bằng cách dùng DI tiêm các bean vào. 
 
 ### DI
-Nguyên lí tiêm sự phụ thuộc
+là một kỹ thuật tiêm
 
 ### So sánh IOC và DI 
 theo em hai cái này nó tương tự nhau . Di là một trong nhiều phương thức của IOC 
