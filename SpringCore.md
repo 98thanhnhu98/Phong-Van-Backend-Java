@@ -5,7 +5,7 @@ là một tập hợp các nguyên tắc để thiết kế phần mềm linh ho
 
 ### Ioc 
 Dựa trên DIP một trong 5 nguyên lí của SOLID .nó giúp triển khai nguyên lý DIP trong SOLID. 
-Bằng cách sử dụng IOC container, các class được chia sẻ các interface chung, chứ không phụ thuộc trực tiếp vào nhau. . 
+Bằng cách sử dụng IOC container, các class được chia sẻ các interface chung, chứ không phụ thuộc trực tiếp vào nhau.  
 Vậy nên nó sinh ra Ioc Container để sử dụng và quản lí bằng cách dùng DI tiêm các bean vào. 
 
 ### DI
