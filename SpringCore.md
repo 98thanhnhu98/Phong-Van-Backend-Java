@@ -25,3 +25,8 @@ JPA là một đặc các tiêu chuẩn của Java để làm việc với cơ s
 
 ### Hibernate
 Là một thư viện ORM giúp các lập trình viên  , nó cho phép tương tác với cơ sở dữ liệu quan hệ 
+
+### Bean 
+Nó là những cái module chính của chương trình , được tạo ra và quản lí bởi spring Ioc Container
+### Bean Lifestyle (Vòng đời của Bean)
+IOC container tạo bean bằng cách gọi constructor sau đó @PostContructor được gọi đến và qua nhiều phương thức khác cuối khi Bean đó không dùng nữa thì @PreDestroy được gọi đến và hủy Bean.
