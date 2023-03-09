@@ -23,3 +23,15 @@ Có nhiều cách để tối ưu hóa hiệu năng như là tối ưu hóa ở 
 (nếu mà thấy thái độ của ông phỏng vấn tốt thì nên hỏi )
 ### 4 Em có câu hỏi gì cho anh không?
 + Dự án dùng công nghệ gì ? -> em rất thích công nghệ này , em rất hứng thú về công nghệ này 
+
+# Phỏng vấn DB
+
+### Transaction
+
+### 
+
+### Trigger
+là những thủ tục thực thi 
+### DDL
+
+### DML 
