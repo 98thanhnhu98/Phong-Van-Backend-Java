@@ -27,4 +27,8 @@ Vì sự quản lí của nó mà câu truy vấn có thể sẽ bị lâu hơn 
 
 ##### TCL (Transaction Control Language) là ngôn ngữ kiểm soát giao dịch, được sử dụng để quản lý các giao dịch trong cơ sở dữ liệu. Một số lệnh TCL phổ biến trong SQL bao gồm COMMIT và ROLLBACK.
 
+### Đệ quy Database và truy vấn phân cấp
+Wiki SQL: https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression
+
+Link tham khảo : https://viblo.asia/p/nghich-ngom-voi-bai-toan-multi-level-query-63vKjbNbK2R
 
