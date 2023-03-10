@@ -1,4 +1,5 @@
 # JAVA CORE
+Tóm Tắt Kiến thức : Bộ nhớ Stack và Heap, kiểu nguyên thủy , kiểu giá trị thường , static , final , Collections
 
 ### Bộ nhớ STACK
 là một cùng nhớ được sử dụng để lưu trữ các tham số và các biến local của phương thức mỗi khi một phương thức được gọi ra . Các tham số và các biến local của một phương thức tạo thành một bản ghi kích hoạt , còn được là một stack frame. Các bản ghi kích hoạt được đẩy vào một stack khi phương thức được gọi và đẩy ra khỏi stack khi phương thức trả về . Sự tồn tại tạm thời của các biến này quyết định thời gian sống của các biến.
@@ -57,5 +58,18 @@ public class A {
 ### làm việc với Final
 + Khi khai báo public final class A thì class A sẽ không thể kế thừa được
 + Khi khai final properties a thì thuộc tính a này bắt buộc phải được khai báo và sẽ không thể sửa đổi.
-+ 
 
+### Collections
+#### - List
++ ArrayList :
++ LinkedList :
++ Vector :
+#### - Queue
++ PriorityQueue : Danh sách hàng đợi thằng nào vào trước thì thằng đó ra trước
++ linkedList :
++ ArrayQueue : 
+#### - Dequeue
++ LinkedList :
++ ArrayQueue :
+#### - Set
++ HashSet :
