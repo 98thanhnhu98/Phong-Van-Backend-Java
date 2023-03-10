@@ -42,7 +42,7 @@ public class A {
     }
 }
 ```
-VD 3 : Khi khởi tạo biến non-static và muốn gọi trong một method static thì bắt buộc phải khai báo biến đó là static hoặc bở static ở method đi
+VD 3 : Khi khởi tạo biến non-static và muốn gọi trong một method static thì bắt buộc phải khai báo biến đó là static hoặc bỏ static ở method đi
 ```
 public class A {
     static int D;
