@@ -1,10 +1,5 @@
 # JAVA CORE
 
-### Đệ quy Database và truy vấn phân cấp
-Wiki SQL: https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression
-
-Link tham khảo : https://viblo.asia/p/nghich-ngom-voi-bai-toan-multi-level-query-63vKjbNbK2R
-
 ### Bộ nhớ STACK
 là một cùng nhớ được sử dụng để lưu trữ các tham số và các biến local của phương thức mỗi khi một phương thức được gọi ra . Các tham số và các biến local của một phương thức tạo thành một bản ghi kích hoạt , còn được là một stack frame. Các bản ghi kích hoạt được đẩy vào một stack khi phương thức được gọi và đẩy ra khỏi stack khi phương thức trả về . Sự tồn tại tạm thời của các biến này quyết định thời gian sống của các biến.
 
