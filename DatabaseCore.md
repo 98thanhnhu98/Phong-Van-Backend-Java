@@ -10,7 +10,7 @@ trigger sẽ được gọi mỗi khi có thao tác thay đổi thông tin bản
 kiểm tra dữ liệu xem có đảm bảo không , nếu không thì rollback lại
 Trong Trigger có :
 + Inserted : chứa những trường đã insert | update bảng
-+ Update chứa những trường bị xóa khỏi bảng.
++ Delete chứa những trường bị xóa khỏi bảng.
 
 Kiểu như là nó quản lí sự thay đổi dữ liệu insert | update | delete dữ liệu ,
 khi khởi tạo trigger nó sẽ check theo điều kiện mình đặt ra bên trong , nếu không đảm bảo
