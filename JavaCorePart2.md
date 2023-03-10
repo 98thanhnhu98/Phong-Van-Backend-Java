@@ -61,11 +61,13 @@ public class A {
 
 ### Collections
 #### - List
-+ ArrayList :
-+ LinkedList :
++ ArrayList : Là một danh sách mảng động , Nó truy vấn tìm kiếm nhanh vì được đánh chỉ mục, nhưng cũng vì phải xắp xếp mỗi lần có sự 
+thay đổi vậy nên thêm mới , sửa và xóa nó sẽ bị lâu.
++ LinkedList : là một danh sách các note , trong một note đó sẽ chứa vị 
 + Vector :
 #### - Queue
-+ PriorityQueue : Danh sách hàng đợi thằng nào vào trước thì thằng đó ra trước
+ Là một danh sách hàng đợi .
++ PriorityQueue : Là một hàng đợi ưu tiên được xắp xếp
 + linkedList :
 + ArrayQueue : 
 #### - Dequeue
