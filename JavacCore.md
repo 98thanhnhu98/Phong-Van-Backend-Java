@@ -1,4 +1,5 @@
 # JAVA CORE
+Tóm tắt kiến thức : String, String builder, String Buffer, Tính chất OOP, Thread, MultiThread, Overriding, OverLoading
 
 ### String
 là lớp chuỗi cơ bản trong Java, đại diện cho một chuỗi các ký tự không thể thay đổi được (immutable).Do tính chất không thể thay đổi của String 
