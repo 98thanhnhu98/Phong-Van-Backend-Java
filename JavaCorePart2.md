@@ -11,3 +11,22 @@ Là một kiểu Object chứa các phương thức xử lý giá trị đó. N�
 
 ### Kiểu Giá Trị (Primitive Data Type)
 là một kiểu dữ liệu cơ bản không có phương thứ xử lý giá trị , dùng để lưu dữ liệu và được lưu trực tiếp trong bộ nhớ.
+
+### làm việc với Static và Non-Static
+VD 1 : Khi mà muốn gọi 1 static class trong 1 public class 
+```
+public class A {
+    static class B{
+        void Ba(){
+            System.out.println("HELlO WORLD");
+            }
+        }
+}
+class C {
+    public static void main(String[] args) {
+        A.B b = new A.B();
+        b.Ba();
+    }
+}
+```
+
