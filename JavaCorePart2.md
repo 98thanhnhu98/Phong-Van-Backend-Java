@@ -29,4 +29,27 @@ class C {
     }
 }
 ```
+khi mà T muốn gọi thằng inner static class B thì như method main() ở class C ta phải Khai báo ra thằng A rồi . thằng B với cả khi gọi 
+ra ta bắt buộc phải khai báo cho nó tạo mới new không thể gắn null cho class đó;
 
+VD 2 : Khi khởi tạo biến static và muốn gọi trong một method non-static
+```
+public class A {
+    static int D;
+
+    void Ba(){
+        System.out.println(D);
+    }
+}
+```
+VD 3 : Khi khởi tạo biến non-static và muốn gọi trong một method static thì bắt buộc phải khai báo biến đó là static hoặc bở static ở method đi
+``
+public class A {
+    static int D;
+
+    static void Ba(){
+        System.out.println(D);
+    }
+}
+
+``
