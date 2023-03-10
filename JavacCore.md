@@ -67,7 +67,6 @@ class Main {
   }
 }
 ```
-
 Output: 
 
     The pig says: wee wee
@@ -103,9 +102,10 @@ class Test {
     }
 }
 ```
+Output: 
+
        Hai
-       
-       
+         
 ### Thread and multithreading
 Thread được coi là đơn vị nhỏ nhất của một chương trình đang chạy vì nó là một tiểu trình độc lập, có khả năng chạy đồng thời với các thread khác trong chương trình. Mỗi thread có một luồng thực thi riêng, có thể chạy cùng lúc với các thread khác, thực hiện các tác vụ độc lập và có thể truy cập và thay đổi các biến và tài nguyên chung.
 
