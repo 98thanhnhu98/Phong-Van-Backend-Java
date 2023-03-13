@@ -62,26 +62,43 @@ public class A {
 ### Collections
 #### - List
 + ArrayList : 
- - là một danh sách mảng động
- - Thứ tự các phần tử dựa theo thứ tự thêm vào và có thể giống nhau
- - Lưu dữ liệu theo chỉ mục => cho phép truy cập ngẫu nhiên => tốc độ truy xuất nhanh
- - Thao tác thêm/sửa/xóa chậm vì cần dịch chuyển các phần tử khi thêm/xóa khỏi danh sách
- - Yêu cầu ít bộ nhớ hơn so với linkedlist
+  - là một danh sách mảng động.
+  - Thứ tự các phần tử dựa theo thứ tự thêm vào và có thể giống nhau.
+  - Lưu dữ liệu theo chỉ mục => cho phép truy cập ngẫu nhiên => tốc độ truy xuất nhanh.
+  - Thao tác thêm/sửa/xóa chậm vì cần dịch chuyển các phần tử khi thêm/xóa khỏi danh sách.
+  - Yêu cầu ít bộ nhớ hơn so với linkedlist.
 
 + LinkedList : 
-  - Được sắp xếp có thứ tự và có thể giống nhau
-  - Thao tác thêm/sửa/xóa nhanh vì không cần phải dịch chuyển nếu bất kì phần tử nào bị xóa khỏi danh sách
-  - Truy xuất các phần tử chậm vì nó phải duyệt qua tất cả các phần tử từ đầu đến cuối để tìm phần tử
-  - Lưu trữ nhiều hơn so với arraylist
+  - Được sắp xếp có thứ tự và có thể giống nhau.
+  - Thao tác thêm/sửa/xóa nhanh vì không cần phải dịch chuyển nếu bất kì phần tử nào bị xóa khỏi danh sách.
+  - Truy xuất các phần tử chậm vì nó phải duyệt qua tất cả các phần tử từ đầu đến cuối để tìm phần tử.
+  - Lưu trữ nhiều hơn so với arraylist.
   
 + Vector :
+  - 
+
 #### - Queue
- Là một danh sách hàng đợi .
-+ PriorityQueue : Là một hàng đợi ưu tiên được xắp xếp
+Là một danh sách hàng đợi .
++ PriorityQueue : 
+  - Là một hàng đợi ưu tiên được xắp xếp
+
+
 + linkedList :
+  - 
+
 + ArrayQueue : 
+  -
+
 #### - Dequeue
 + LinkedList :
+  - 
+
 + ArrayQueue :
+  -
+
 #### - Set
 + HashSet :
+  - Không dựa theo thứ tự lúc thêm vào và giá trị các phần tử là duy nhất
+  - Dung lượng lưu trữ mặc định là 16
+  - Cho phép chứa phần tử null
+  - Hệ số tải mặc đinh (0,75) Khi nào hashset được lấp đầy 75% các phần tử sẽ được chuyển sang hashtable , các phẩn tử chuyển sang hashtable mới có kích thước gấp đôi hash table ban đầu)
