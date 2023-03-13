@@ -1,5 +1,5 @@
 # Phỏng vấn DB
-Tóm tắt kiến thức : Transaction, Trigger, Các Tập lệnh truy vấn SQL, Đệ Quy SQL
+Tóm tắt kiến thức : Transaction, Trigger, Các Tập lệnh truy vấn SQL, Đệ Quy SQL, Full Outer Join, Left Join, Right Join
 
 ### Transaction
 
@@ -37,4 +37,20 @@ là ngôn ngữ kiểm soát giao dịch, được sử dụng để quản lý 
 Wiki SQL: https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL#Common_table_expression
 
 Link tham khảo : https://viblo.asia/p/nghich-ngom-voi-bai-toan-multi-level-query-63vKjbNbK2R
+
+### Full Outer Join
+Gom 2 bảng lại thỏa mãn điều kiện và không thỏa mãn điều kiện sẽ là null
+
+### Cross Join
+là tổ hợp record của bảng A với all record của bảng B
+
+### Left Join
+Bảng bên phải nhập vào bảng bên trái
+Record nào bảng bên phải không có thì để null
+Record nào bảng bên trái không có thì không lấy
+
+### Right Join
+Bảng bên trái nhập vào bảng bên phải
+Record nào bảng bên trái không có thì để null
+Record nào bảng bên phải không có thì không lấy
 
