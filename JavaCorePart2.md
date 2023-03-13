@@ -75,30 +75,41 @@ public class A {
   - Lưu trữ nhiều hơn so với arraylist.
   
 + Vector :
-  - 
 
 #### - Queue
 Là một danh sách hàng đợi .
 + PriorityQueue : 
   - Là một hàng đợi ưu tiên được xắp xếp
 
-
 + linkedList :
-  - 
 
 + ArrayQueue : 
-  -
 
 #### - Dequeue
 + LinkedList :
-  - 
 
 + ArrayQueue :
-  -
 
 #### - Set
 + HashSet :
   - Không dựa theo thứ tự lúc thêm vào và giá trị các phần tử là duy nhất
   - Dung lượng lưu trữ mặc định là 16
   - Cho phép chứa phần tử null
-  - Hệ số tải mặc đinh (0,75) Khi nào hashset được lấp đầy 75% các phần tử sẽ được chuyển sang hashtable , các phẩn tử chuyển sang hashtable mới có kích thước gấp đôi hash table ban đầu)
+  - Hệ số tải mặc đinh (0,75) Khi nào hashset được lấp đầy 75% các phần tử sẽ được chuyển sang hashtable , các phẩn tử chuyển sang hashtable mới có kích thước gấp đôi hash table ban đầu).
+
++ TreeSet : 
+  - thứ tự mặc định được xếp tăng dần và giá trị các phần tử là duy nhất.
+  - Không cho phép chứa phần tử null.
+
+#### - Map
++ HashMap :
+  - Hữu ích khi tìm kiếm , cật nhật hoặc xóa các phần tử dựa vào key.
+  - Giá trị mỗi phần tử bao gồm key(duy nhất) và value.
+  - Không đảm bảo thứ tự các entry được thêm vào.
+  - Có thể chứa 1 key có giá trị null.
+
++ TreeMap
+  - Duy trì thứ tự các phần tử dựa vào bộ so sánh Comparator.
+  - Hữu ích khi tìm kiếm , cật nhật hoặc xóa các phần tử dựa vào key.
+  - Giá trị mỗi phần tử bao gồm key(duy nhất) và value . Giá trị của các phần tử được sắp xếp tăng dần.
+
