@@ -61,9 +61,19 @@ public class A {
 
 ### Collections
 #### - List
-+ ArrayList : Là một danh sách mảng động , Nó truy vấn tìm kiếm nhanh vì được đánh chỉ mục, nhưng cũng vì phải xắp xếp mỗi lần có sự 
-thay đổi vậy nên thêm mới , sửa và xóa nó sẽ bị lâu.
-+ LinkedList : là một danh sách các note , trong một note đó sẽ chứa vị 
++ ArrayList : 
+ - là một danh sách mảng động
+ - Thứ tự các phần tử dựa theo thứ tự thêm vào và có thể giống nhau
+ - Lưu dữ liệu theo chỉ mục => cho phép truy cập ngẫu nhiên => tốc độ truy xuất nhanh
+ - Thao tác thêm/sửa/xóa chậm vì cần dịch chuyển các phần tử khi thêm/xóa khỏi danh sách
+ - Yêu cầu ít bộ nhớ hơn so với linkedlist
+
++ LinkedList : 
+  - Được sắp xếp có thứ tự và có thể giống nhau
+  - Thao tác thêm/sửa/xóa nhanh vì không cần phải dịch chuyển nếu bất kì phần tử nào bị xóa khỏi danh sách
+  - Truy xuất các phần tử chậm vì nó phải duyệt qua tất cả các phần tử từ đầu đến cuối để tìm phần tử
+  - Lưu trữ nhiều hơn so với arraylist
+  
 + Vector :
 #### - Queue
  Là một danh sách hàng đợi .
