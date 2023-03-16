@@ -35,3 +35,5 @@ IOC container tạo bean bằng cách gọi constructor sau đó @PostContructor
 ### Spring Cloud 
 là một công nghệ phần mềm sử dụng để phát triển các ứng dụng phân tán.
 Một ứng dụng được gọi là phân tán (Distributed application) khi các phần của nó có thể được phát triển trên các ngôn ngữ khác nhau, và được triển khai trên các máy chủ khác nhau.
+
+
