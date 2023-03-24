@@ -1,5 +1,5 @@
 # Phỏng vấn DB
-Tóm tắt kiến thức : Transaction, Trigger, Các Tập lệnh truy vấn SQL, Đệ Quy SQL, Full Outer Join, Left Join, Right Join
+Tóm tắt kiến thức : Transaction, Trigger, Các Tập lệnh truy vấn SQL, Đệ Quy SQL, Full Outer Join, Left Join, Right Join, 3 Chuẩn NF
 
 ### Transaction
 
@@ -38,19 +38,36 @@ Wiki SQL: https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQ
 
 Link tham khảo : https://viblo.asia/p/nghich-ngom-voi-bai-toan-multi-level-query-63vKjbNbK2R
 
+### 3 Chuẩn NF
+##### 1NF :
+ _ Trong 1 bảng : 
+  + Các thuộc tính của bảng phải là nguyên tố.
+  + Giá trị của các thuộc tính trên các hàng phải là đơn trị, không chứa nhóm lặp , Không có một thuộc tính nào
+   có giá trị có thể tính toán được từ một thuộc tính khác .
+
+##### 2 NF:
+ _ Loại bỏ các thuộc tính không khóa phụ thuộc vào một bộ phận khóa chính và tách ra thành một bảng riêng, 
+ khóa chính của bảng là bộ phận của khóa mà chúng phụ thuộc vào.
+ _ Các thuộc tính còn lại lập thành một quan hệ, khóa chính của nó là khóa chính ban đầu.
+
+##### 3NF:
+ _ Loại bỏ các thuộc tính phụ thuộc bắc cầu ra khỏi quan hệ và tách chúng thành quan hệ riêng có khóa chính là thuộc tính bắc cầu.
+ _ Các thuộc tính còn lại lập thành một quan hệ có khóa chính là khóa ban đầu.
+
+
 ### Full Outer Join
-Gom 2 bảng lại thỏa mãn điều kiện và không thỏa mãn điều kiện sẽ là null
+Gom 2 bảng lại thỏa mãn điều kiện và không thỏa mãn điều kiện sẽ là null.
 
 ### Cross Join
-là tổ hợp record của bảng A với all record của bảng B
+là tổ hợp record của bảng A với all record của bảng B.
 
 ### Left Join
-Bảng bên phải nhập vào bảng bên trái
-Record nào bảng bên phải không có thì để null
-Record nào bảng bên trái không có thì không lấy
+Bảng bên phải nhập vào bảng bên trái.
+Record nào bảng bên phải không có thì để null.
+Record nào bảng bên trái không có thì không lấy.
 
 ### Right Join
-Bảng bên trái nhập vào bảng bên phải
-Record nào bảng bên trái không có thì để null
-Record nào bảng bên phải không có thì không lấy
+Bảng bên trái nhập vào bảng bên phải.
+Record nào bảng bên trái không có thì để null.
+Record nào bảng bên phải không có thì không lấy.
 
