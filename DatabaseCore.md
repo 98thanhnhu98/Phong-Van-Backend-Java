@@ -3,6 +3,18 @@ Tóm tắt kiến thức : Transaction, Trigger, Các Tập lệnh truy vấn SQ
 
 ### Transaction
 
+### SubQuery
+
+### Function
+
+### Index
+
+### Có mấy loại Index
+
+### Cách đánh của từng loại index đó
+
+### Stored procedure
+là một tập hợp những truy vấn bên trong
 
 ### Trigger
 là những thủ tục thực thi.
@@ -70,4 +82,9 @@ Record nào bảng bên trái không có thì không lấy.
 Bảng bên trái nhập vào bảng bên phải.
 Record nào bảng bên trái không có thì để null.
 Record nào bảng bên phải không có thì không lấy.
+
+### Having khác where ở chỗ nào ?
+- Having như where của select nhưng giành cho group by
+- having là where của group by
+- giới hạn truy vấn của having được đặt ra ở phần group by , và thuộc tính của nó cần là một aggregate function
 
