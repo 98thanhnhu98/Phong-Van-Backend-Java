@@ -1,4 +1,11 @@
 # Phong-Van-ASP.NET mvc
+
+### ASP.NET core
+ASP.NET Core is the framework you want to use for web development with .NET
+  
+### ASP.NET mvc
+ASP.NET mvc is the framework you want to use for web development with .NET
+
 ### Bạn hãy nêu các trường hợp dùng công cụ Inspector trong trình duyệt?
 1 Kiểm tra Css
 2 Kiểm tra Js
@@ -71,11 +78,6 @@ Khi sử dụng IQueryable, câu lệnh truy vấn sẽ thực hiện trên máy
 5.Sử dụng kỹ thuật cache: Sử dụng kỹ thuật cache để lưu các kết quả của quá trình xử lý dài hạn, giảm thiểu việc phải thực hiện lại các phép tính, giảm thiểu thời gian phản hồi và tăng hiệu suất xử lý.
 
 6.Xây dựng các tiến trình dự phòng (failover processes): Xây dựng các tiến trình dự phòng để đảm bảo rằng quá trình xử lý không bị gián đoạn hoặc bị tắt do các lỗi hệ thống.
-  
-### ASP.NET core
-ASP.NET Core is the framework you want to use for web development with .NET
-  
-### ASP.NET mvc
 
   
   
