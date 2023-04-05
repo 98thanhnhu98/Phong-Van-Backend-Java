@@ -79,8 +79,16 @@ Khi sử dụng IQueryable, câu lệnh truy vấn sẽ thực hiện trên máy
 
 6.Xây dựng các tiến trình dự phòng (failover processes): Xây dựng các tiến trình dự phòng để đảm bảo rằng quá trình xử lý không bị gián đoạn hoặc bị tắt do các lỗi hệ thống.
   
- 
-  
+### Phân biệt ViewBag và ViewData trong MVC
+- Kiểu dữ liệu truyền qua:
+ViewData: được truyền dưới dạng một đối tượng ViewDataDictionary. Ta có thể lưu trữ bất kỳ loại dữ liệu nào vào ViewDataDictionary.
+ViewBag: được truyền dưới dạng một đối tượng dynamic. Ta có thể lưu trữ bất kỳ loại dữ liệu nào vào ViewBag, cả các kiểu dữ liệu nguyên thủy (int, string,..) và đối tượng.
+- Cách truy cập:
+ViewData: đối tượng ViewData được truyền từ Controller đến View thông qua tham số của phương thức ActionResult, và ta có thể truy cập dữ liệu bằng cách sử dụng key tương ứng. Ví dụ: ViewData["UserName"].
+ViewBag: ViewBag được truyền từ Controller đến View thông qua thuộc tính của Controller, và ta có thể truy cập dữ liệu bằng cách sử dụng tên thuộc tính. Ví dụ: ViewBag.UserName.
+- Tính linh hoạt:
+ViewData: ViewData có tính linh hoạt thấp hơn so với ViewBag. Việc truyền và lấy giá trị của ViewData đòi hỏi ta phải chuyển đổi kiểu dữ liệu tương ứng.
+ViewBag: ViewBag có tính linh hoạt cao hơn, bởi vì nó cho phép truyền và lấy giá trị một cách tự nhiên, mà không cần chuyển đổi kiểu dữ liệu.
   
   
   
