@@ -56,6 +56,12 @@ giúp tăng tốc độ thực hiện tính năng search.
 7. Tối ưu hóa code
  
 ### Nêu định nghĩa và phân biệt Cluster Index và Non-Cluster Index?
+Clustered index (chỉ mục gom cụm) và non-clustered index (chỉ mục không gom cụm) là hai loại chỉ mục trong cơ sở dữ liệu quan hệ.
+
+Clustered index được sắp xếp dữ liệu trong bảng theo thứ tự chỉ mục. Nó được sử dụng để tìm kiếm nhanh các giá trị cụ thể hoặc phạm vi giá trị trong bảng.
+Mỗi bảng chỉ có thể có một clustered index, và do đó chỉ mục này được sử dụng để sắp xếp toàn bộ bảng.
+Ex : priamry key khi được sử dụng cũng tạo ra một clustered index.
+Non-clustered index tạo ra một danh sách riêng biệt của các giá trị chỉ mục và con trỏ tới dữ liệu trong bảng. Điều này cho phép truy xuất nhanh các giá trị chỉ mục hoặc phạm vi giá trị cụ thể, nhưng không phải sắp xếp toàn bộ bảng. Một bảng có thể có nhiều non-clustered inde
 
 ### Nếu khi rẽ nhánh trong Code mà dùng hết If và không dùng Else thì có gặp phải vấn đề gì không?
 Khi rẽ nhánh trong code, nếu sử dụng hết điều kiện if mà không sử dụng else, điều này không gây ra vấn đề gì, và mã có thể hoạt động đúng như mong đợi.
@@ -63,5 +69,20 @@ Khi rẽ nhánh trong code, nếu sử dụng hết điều kiện if mà không
 Tuy nhiên, điều này có thể gây ra một số vấn đề về độ đọc hiểu của mã nguồn. Khi có quá nhiều điều kiện if mà không có else,
 nó có thể làm cho mã trở nên khó đọc và khó hiểu. Nếu sau đó cần thêm điều kiện else vào để xử lý trường hợp còn lại, sẽ khó khăn hơn để tìm hiểu và hiệu chỉnh mã.
 
+### Bạn hãy nêu ý tưởng để lập trình nhanh, không cần setup database công cụ: input là 1 File CSV chứa Name, Age, Output 1 file CSV, kết quả có cột email được điền vào?
+Viết một Action trong Controller để xử lý dữ liệu từ file CSV. Đọc dữ liệu từ file CSV vào một danh sách đối tượng, sau đó xử lý và lưu trữ dữ liệu đó. 
+và map tới 1 file khác có thêm thuộc tính Email , rồi trả về view file có đủ 4 thuộc tính trên.
 
+### Thành phần của mẫu web của ASP.NET là gì?
+- Model: Đây là thành phần đại diện cho dữ liệu của ứng dụng. Model được sử dụng để truy xuất và lưu trữ dữ liệu của ứng dụng.
+
+- View: Đây là thành phần đại diện cho giao diện người dùng của ứng dụng. View được sử dụng để hiển thị dữ liệu cho người dùng.
+
+- Controller: Đây là thành phần xử lý logic của ứng dụng. Controller nhận đầu vào từ người dùng thông qua các request HTTP và sử dụng Model để truy xuất và lưu trữ dữ liệu. Sau đó, Controller sử dụng View để hiển thị kết quả cho người dùng.
+
+- Routing: Đây là thành phần quản lý các URL của ứng dụng. Routing xác định Controller và Action phù hợp với URL được yêu cầu.
+
+- Middleware: Đây là thành phần quản lý các request và response của ứng dụng. Middleware cho phép thực hiện các thao tác trước và sau khi request được xử lý, như kiểm tra đăng nhập, ghi log, nén dữ liệu, v.v.
+
+- Dependency Injection: Đây là thành phần cho phép tiêm các phụ thuộc vào các thành phần của ứng dụng, giúp quản lý và sử dụng các đối tượng trong ứng dụng một cách dễ dàng và linh hoạt hơn.
 
